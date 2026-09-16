@@ -1,0 +1,6 @@
+[submodule "apps/funlesson"]
+	path = apps/funlesson
+	url = https://github.com/farfarfun/funlesson.git
+[submodule "apps/funlesson-web"]
+	path = apps/funlesson-web
+	url = https://github.com/farfarfun/funlesson-web.git
