@@ -62,3 +62,5 @@ bash scripts/setup.sh stop all
 bash scripts/setup.sh build all
 bash scripts/setup.sh publish apps/funlesson
 ```
+
+省略 `action`/`target` 时会用 `gum choose` 打开交互菜单（需要本机已装 `gum`；未装则报错，退回显式参数调用）。
