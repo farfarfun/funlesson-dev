@@ -1,9 +1,14 @@
 #!/bin/sh
 set -e
 
+git -C apps/funlesson-api switch master
 git -C apps/funlesson switch master
 git -C apps/funlesson-web switch master
 
+cd apps/funlesson-api
+funbuild build
+
+cd ../..
 cd apps/funlesson
 funbuild build
 
